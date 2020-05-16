@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\meirs\desktop\meshsimplification\display\inputmanager.h(76): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+MSVCRTD.lib(initializers.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\meirs\Desktop\MeshSimplification\Debug\vc100.pdb'; linking object as if no debug info
+  MeshSimplification.vcxproj -> C:\Users\meirs\Desktop\MeshSimplification\Debug\MeshSimplification.exe

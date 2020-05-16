@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "engine3D", "engine3D\engine3D.vcxproj", "{DC64F21F-F326-4173-8867-0B89349385F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "display", "display\display.vcxproj", "{2785AA83-C879-44C2-8189-158A8AF2525F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2767D83F-5D44-4A6C-BBCD-8D0B267C0B37}"
+	ProjectSection(SolutionItems) = preProject
+		MeshSimplification\MeshSimplification.vcxproj = MeshSimplification\MeshSimplification.vcxproj
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeshSimplification", "MeshSimplification\MeshSimplification.vcxproj", "{9AC22C06-C4D7-41EA-B354-904A99D659CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC64F21F-F326-4173-8867-0B89349385F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC64F21F-F326-4173-8867-0B89349385F3}.Debug|Win32.Build.0 = Debug|Win32
+		{DC64F21F-F326-4173-8867-0B89349385F3}.Release|Win32.ActiveCfg = Release|Win32
+		{DC64F21F-F326-4173-8867-0B89349385F3}.Release|Win32.Build.0 = Release|Win32
+		{2785AA83-C879-44C2-8189-158A8AF2525F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2785AA83-C879-44C2-8189-158A8AF2525F}.Debug|Win32.Build.0 = Debug|Win32
+		{2785AA83-C879-44C2-8189-158A8AF2525F}.Release|Win32.ActiveCfg = Release|Win32
+		{2785AA83-C879-44C2-8189-158A8AF2525F}.Release|Win32.Build.0 = Release|Win32
+		{9AC22C06-C4D7-41EA-B354-904A99D659CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AC22C06-C4D7-41EA-B354-904A99D659CC}.Debug|Win32.Build.0 = Debug|Win32
+		{9AC22C06-C4D7-41EA-B354-904A99D659CC}.Release|Win32.ActiveCfg = Release|Win32
+		{9AC22C06-C4D7-41EA-B354-904A99D659CC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9A5E51B-1503-4EAE-9904-486F93A192A8}
+	EndGlobalSection
+EndGlobal
