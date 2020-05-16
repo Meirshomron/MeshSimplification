@@ -228,10 +228,10 @@ mat4 MeshSimplification::calcVertexError(int vertexIndex)
 		{
 			if (it2->second != it->second)
 			{
-				// up untill here we check if the 3 indexes creates a triangle
+				// Up until here we check if the 3 indexes creates a triangle.
 				if (isTriangle(it->second, it2->second))
 				{
-					//calc cross prod
+					// Calc cross prod.
 					vec3 n = cross(m_vertices[it2->second] - m_vertices[vertexIndex], m_vertices[it->second] - m_vertices[vertexIndex]);
 					n = normalize(n);
 
