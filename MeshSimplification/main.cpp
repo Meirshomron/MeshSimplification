@@ -13,11 +13,11 @@ int main(int argc, char** argv)
 	//scn.addShape("./res/objs/testboxNoUV.obj", glm::vec3(-5, 0, 0), 0);
 	//scn.addShape("./res/objs/testboxNoUV.obj", glm::vec3(5, 0, 0), 1);
 
-	// monkey3 - Start faces = 4k (down to 2k)
+	// monkey3 - Start faces = 4k
 	//scn.addShape("./res/objs/monkey3.obj", glm::vec3(-5, 0, 0), 0);
 	//scn.addShape("./res/objs/monkey3.obj", glm::vec3(5, 0, 0), 1);
 
-	// Wooden Crate - Start faces = 298 (down to 75)
+	// Wooden Crate - Start faces = 298
 	scn.addShape("./res/objs/Wooden Crate.obj", glm::vec3(-5, 0, 0), 0);
 	scn.addShape("./res/objs/Wooden Crate.obj", glm::vec3(5, 0, 0), 1);
 	
