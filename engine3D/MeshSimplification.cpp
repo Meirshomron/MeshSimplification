@@ -69,16 +69,15 @@ void MeshSimplification::calcFaces(int firstEdgeInd, int secondEdgeInd)
 			first = *it;
 			break;
 
-			// Second vertex of the current face.
+		// Second vertex of the current face.
 		case(1):
 			second = *it;
 			break;
-			// Third vertex of the current face.
-
+				
+		// Third vertex of the current face.
 		case(2):
 			third = *it;
 			counter = 0;
-
 
 			// If the current face contains the given edge indices.
 			if ((firstEdgeInd == first.vertexIndex || firstEdgeInd == second.vertexIndex || firstEdgeInd == third.vertexIndex) && (secondEdgeInd == first.vertexIndex || secondEdgeInd == second.vertexIndex || secondEdgeInd == third.vertexIndex))
