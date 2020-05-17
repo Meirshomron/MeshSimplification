@@ -20,7 +20,7 @@ Implementation of Surface Simplification Using QEM in C++.
  ### display
 *Window and input handler.*
 - display.cpp
-  - *Widndow wwith glfw wrapper.*
+  - *Widndow with glfw wrapper.*
 - inputManager.h
   - *User input handler.*
   
