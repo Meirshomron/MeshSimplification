@@ -5,24 +5,12 @@ Implementation of Surface Simplification Using QEM in C++.
 
 ### engine
 *This is the under-the-hood part that enables rendering meshes, our actual mesh  simplification is in here.*
-- mesh.cpp
-  - *Mesh represention via openGL.*
-- shader.cpp
-  - *Shader manager, with the ability to load and bind multiple textures.*
-- obj_lodaer.cpp
-  - *.obj File parser.*
 
 ### MeshSimplification
-*Run specific simplification scene.*
-- main.cpp
-  - *Entry point.*
+*Entry point to run specific simplification scene.*
  
  ### display
 *Window and input handler.*
-- display.cpp
-  - *Widndow with glfw wrapper.*
-- inputManager.h
-  - *User input handler.*
   
 ##  Code Flow
 1.  main.cpp : Call the scene with the obj path, position and if to simplify. -->
