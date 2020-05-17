@@ -28,6 +28,8 @@ Implementation of Surface Simplification Using QEM in C++.
 - m_vertices - vector of the positions of the vertices;
 - At runtime create a min heap for the edges and update it on every edge removed.
 
+**Use Arrows to move around the scene and zoom in/out.**
+
 ##  Images:
 > 4K trianlges on the right, 2k on the left.
 <img  src="Images/meshSimplification_2000_4.png" width="400" >
