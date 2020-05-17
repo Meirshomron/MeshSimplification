@@ -36,7 +36,7 @@ Implementation of Surface Simplification Using QEM in C++.
 - m_edgeVector - vector of all edges (no order);
 -	m_vertexNeighbor - multimap from vertex index to all it's neighbors;
 - m_errors - vector of mat4 errors for every vertex index;
--	m_OBJIndices - list of OBJIndex, the final structure includes every normal,uv and vertex index in the vertices.
+-	m_OBJIndices - list of OBJIndex, the final structure includes every normal, uv and vertex index in the vertices.
 - m_vertices - vector of the positions of the vertices;
 - At runtime create a min heap for the edges and update it on every edge removed.
 
